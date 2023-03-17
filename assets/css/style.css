@@ -25,10 +25,12 @@ main{
     width: calc(100% / 10);
     border: 1px solid;
     aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bg_selected{
     background-color: var(--selected-cell);
 }
 
-body{background-color: black;}

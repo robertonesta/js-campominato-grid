@@ -20,16 +20,16 @@
                 <h1>Campo minato</h1>
             </div>         
         </div>
-        <div class="right d-flex">
+        <div class="right d-flex align-items-center">
             <div class="difficulty">
-                <div class="dropdown">
-                    <button class="btn border-1 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Difficoltà
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#">Easy</a>
-                      <a class="dropdown-item" href="#">Medium</a>
-                      <a class="dropdown-item" href="#">Hard</a>
+                <div class="dropdown d-flex align-items-center">
+                    <p class="m-0">Difficoltà: </p>
+                    <div class="card_body">
+                        <select name="difficulty" id="difficulty">
+                            <option value="Easy">Easy</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Hard">Hard</option>
+                        </select>                         
                     </div>
                 </div>
             </div>
@@ -39,7 +39,8 @@
         </div>
     </header>
     <main>
-        <div class="container py-5"></div>
+        <div class="container py-5">
+        </div>
     </main>
     <footer>
         <div  class="m-3">
