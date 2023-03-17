@@ -5,9 +5,15 @@
 }
 
 :root{
-    --btn-bg: #e9e9ed;
+    --select-bg: #e9e9ed;
     --main-bg: #7fffd4;
     --selected-cell: #4dc6e2; 
+}
+
+select{
+    background-color: var(--select-bg);
+    width: 150px;
+    border-radius: 5px;
 }
 
 main{
