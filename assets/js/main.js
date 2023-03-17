@@ -23,7 +23,7 @@ for (let i = 0; i < cellEl.length; i++) {
     const thisCell = cellEl[i];
     console.log(thisCell)
     thisCell.addEventListener("click", function() {
-        thisCell.classList.toggle("bg_selected")
+        thisCell.classList.add("bg_selected")
         // this.classList.add("active")
         console.log("Changed the color")
     })
