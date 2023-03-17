@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --btn-bg: #e9e9ed;
+    --main-bg: #7fffd4;
+}
+
+main{
+    background-color: var(--main-bg);
+}
