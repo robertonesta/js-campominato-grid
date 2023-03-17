@@ -21,20 +21,18 @@
             </div>         
         </div>
         <div class="right d-flex align-items-center">
-            <div class="difficulty">
-                <div class="dropdown d-flex align-items-center">
-                    <p class="m-0">Difficoltà: </p>
-                    <div class="card_body">
-                        <select name="difficulty" id="difficulty">
-                            <option value="Easy">Easy</option>
-                            <option value="Medium">Medium</option>
-                            <option value="Hard">Hard</option>
+            <div class="easy_medium_hard d-flex align-items-center">
+                <span class="m-0">Difficoltà: </span>
+                <div class="card_body">
+                        <select id="difficulty">
+                            <option value="100" selected>Easy</option>
+                            <option value="81">Medium</option>
+                            <option value="49">Hard</option>
                         </select>                         
-                    </div>
                 </div>
             </div>
             <div class="play">
-                <button id="play" class="btn border-1" type="button">Play</button>
+                <button class="play btn border-1" type="button">Play</button>
             </div>
         </div>
     </header>
