@@ -7,8 +7,28 @@
 :root{
     --btn-bg: #e9e9ed;
     --main-bg: #7fffd4;
+    --selected-cell: #4dc6e2; 
 }
 
 main{
     background-color: var(--main-bg);
 }
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cell{
+    width: calc(100% / 10);
+    border: 1px solid;
+    aspect-ratio: 1/1;
+}
+
+.bg_selected{
+    background-color: var(--selected-cell);
+}
+
+body{background-color: black;}
